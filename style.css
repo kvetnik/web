@@ -1,0 +1,118 @@
+html,body {
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    font-weight: 300;
+    color: #000000;
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+li {
+    margin: 15px;
+}
+
+#mainBlock {
+    background: url("https://gevis.ru/image/data/stati/xiaomi-mija-obzor/xiaomi-mi-scooter-22.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: #f0f0f0;
+}
+
+#mainBlock h1 {
+    margin:0;
+    padding-top: 20%;
+    padding-left: 5%;
+    font-size: 300%;
+}
+
+.infoBlock {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 400;
+    background: #ffffff;
+}
+.infoBlock h2 {
+    font-weight: 400;
+    position: relative;
+}
+.infoBlock h2:after{
+    content: "";
+    position :absolute;
+    left: 0;
+    bottom: -6px;
+    height: 3px;
+    width: 200px;
+    background: #BF2F2F;
+}
+
+* {box-sizing: border-box;}
+#feedbackForm {
+    position: relative;
+    width: 100%;
+    padding: 10%;
+    background-image: url(https://gevis.ru/image/data/stati/xiaomi-mija-obzor/xiaomi-mijia-765-compressor.jpg);
+    background-size: cover;
+}
+#feedbackForm:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right bottom,rgba(130, 130, 130, .8),rgba(0,0, 0, .8));
+}
+.form-inner {position: relative;}
+.form-inner h3 {
+    position: relative;
+    margin-top: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.form-inner h3:after {
+    content: "";
+    position :absolute;
+    left: 0;
+    bottom: -6px;
+    height: 2px;
+    width: 60px;
+    background: #BF2F2F;
+}
+.form-inner label {
+    display: block;
+    padding-left: 15px;
+    color: rgba(255,255,255,.6);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.form-inner input {
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+    margin: 10px 0 15px;
+    border-width: 0;
+    line-height: 40px;
+    border-radius: 20px;
+    color: white;
+    background: rgba(255,255,255,.2);
+
+}
+.form-inner input[type="submit"] {background: #BF2F2F}
