@@ -29,7 +29,7 @@ li {
 #mainBlock {
     background: url("https://gevis.ru/image/data/stati/xiaomi-mija-obzor/xiaomi-mi-scooter-22.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     color: #f0f0f0;
 }
